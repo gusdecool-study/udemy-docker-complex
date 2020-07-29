@@ -1,6 +1,6 @@
 # Run inside gcloud shell to set kubectl secret
 
-# Similar commands like in .travis.yaml
+# Similar commands like in .travis.yml
 gcloud config set project udemy-docker-complex
 gcloud config set compute/zone asia-southeast2-a
 gcloud container clusters get-credentials k8s-test
